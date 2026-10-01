@@ -1,0 +1,45 @@
+{
+  "version": "5",
+  "remote": {
+    "https://edge.netlify.com/": "fd941d61d88673d5f28aab283fb86fcc50f08a3bc80ee5470498fcfa88c65cfb",
+    "https://edge.netlify.com/bootstrap/config.ts": "6a2ce0e544e15e8f8883a5c18da5948e37fd0f2619f68cb31f3af53c51817025",
+    "https://edge.netlify.com/bootstrap/context.ts": "2260177df4a7d692f31177ccbf2de969cd8db1269c564a45517d6e47fd7d248f",
+    "https://edge.netlify.com/bootstrap/cookie.ts": "8b0baae708989ca183c6f3b4ab3d029e6abcbc2e43f93edeb0ff447b3bbc3a05",
+    "https://edge.netlify.com/bootstrap/edge_function.ts": "b8253e86aa83c67341f5cfedeba5049d77fbf84dcab7eceff7566b7728ae9b39",
+    "https://edge.netlify.com/bootstrap/globals/types.ts": "eaa6148ded3121d8dee62dd91c86e7fe76601df0f3ca8d7962243a30f4c8935f"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@tsconfig/node24@^24.0.4",
+        "npm:@types/node@^24.10.9",
+        "npm:@vitejs/plugin-vue-jsx@^5.1.3",
+        "npm:@vitejs/plugin-vue@^6.0.3",
+        "npm:@vue/eslint-config-typescript@^14.6.0",
+        "npm:@vue/tsconfig@~0.8.1",
+        "npm:cors@^2.8.6",
+        "npm:dotenv@^17.2.4",
+        "npm:eslint-config-prettier@^10.1.8",
+        "npm:eslint-plugin-vue@10.7",
+        "npm:eslint@^9.39.2",
+        "npm:express-rate-limit@^8.2.1",
+        "npm:express-validator@^7.3.1",
+        "npm:express@^5.2.1",
+        "npm:helmet@^8.1.0",
+        "npm:jiti@^2.6.1",
+        "npm:nodemailer@^8.0.11",
+        "npm:npm-run-all2@^8.0.4",
+        "npm:pinia@^3.0.4",
+        "npm:prettier@3.8.1",
+        "npm:sass-embedded@^1.97.3",
+        "npm:typescript@~5.9.3",
+        "npm:validator@^13.15.26",
+        "npm:vite-plugin-vue-devtools@^8.0.5",
+        "npm:vite@^7.3.1",
+        "npm:vue-router@^4.6.4",
+        "npm:vue-tsc@^3.2.2",
+        "npm:vue@^3.5.26"
+      ]
+    }
+  }
+}
