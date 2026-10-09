@@ -47,26 +47,26 @@
 @media only screen and (min-width: 600px) {
   @keyframes mouseAnimation {
     0% {
-      top: -40px;
-    }
-    50% {
       top: -30px;
     }
+    50% {
+      top: -20px;
+    }
     100% {
-      top: -40px;
+      top: -30px;
     }
   }
 }
 
 @keyframes mouseAnimation {
   0% {
-    top: -10px;
+    top: 30px;
   }
   50% {
-    top: 0px;
+    top: 40px;
   }
   100% {
-    top: -10px;
+    top: 30px;
   }
 }
 </style>

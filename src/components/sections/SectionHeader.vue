@@ -8,7 +8,7 @@ import headerBg from '@/assets/images/header-bg.webp'
 </script>
 
 <template>
-  <header class="SectionHeader" :style="{ backgroundImage: `url(${headerBg})` }">
+  <header class="SectionHeader" id="header" :style="{ backgroundImage: `url(${headerBg})` }">
     <div class="content">
       <div class="SectionHeader-logoContainer">
         <LogoIcon />
@@ -68,6 +68,10 @@ import headerBg from '@/assets/images/header-bg.webp'
   min-height: 100dvh;
   justify-content: space-between;
   padding-block: 50px;
+
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 80px;
+  }
 }
 
 .content,
