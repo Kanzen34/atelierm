@@ -64,11 +64,19 @@ import ButtonBase from '../ButtonBase.vue'
 .right {
   right: -150px;
   bottom: 0;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .left {
   left: -150px;
   top: 0;
   transform: rotate(180deg);
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 </style>

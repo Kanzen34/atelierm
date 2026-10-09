@@ -84,6 +84,13 @@ import FormContact from '../FormContact.vue'
     justify-content: space-between;
     /* Styles pour cette Media Queries */
   }
+
+  .section-subtitle {
+    @media only screen and (max-width: 600px) {
+      word-break: break-all;
+      white-space: normal;
+    }
+  }
 }
 
 .SectionContact-contactPhone,
@@ -91,6 +98,15 @@ import FormContact from '../FormContact.vue'
   display: flex;
   align-items: center;
   gap: 40px;
+
+  @media only screen and (max-width: 600px) {
+    gap: 20px;
+  }
+
+  p {
+    white-space: nowrap;
+    overflow-wrap: break-word;
+  }
 }
 
 .SectionContact-form {

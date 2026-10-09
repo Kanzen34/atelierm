@@ -77,7 +77,7 @@ strong {
 }
 
 .section-title {
-  font-size: 3.4rem;
+  font-size: 4rem;
 }
 
 .section-subtitle,
@@ -107,6 +107,10 @@ strong {
   display: flex;
   justify-content: center;
   padding: 100px 0;
+
+  @media only screen and (min-width: 600px) {
+    padding: 60px 0;
+  }
 }
 
 .section-header {
