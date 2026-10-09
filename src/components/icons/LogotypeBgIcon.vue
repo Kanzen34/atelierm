@@ -1,5 +1,5 @@
 <template>
-  <svg class="LogotypeBgIcon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 962 877">
+  <svg class="LogotypeBgIcon" fill="none" viewBox="0 0 962 877">
     <path
       fill="#fff"
       fill-opacity=".04"

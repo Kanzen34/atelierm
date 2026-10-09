@@ -44,29 +44,29 @@
     top: 6px;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   @keyframes mouseAnimation {
     0% {
-      top: -30px;
+      top: -40px;
     }
     50% {
       top: -20px;
     }
     100% {
-      top: -30px;
+      top: -40px;
     }
   }
 }
 
 @keyframes mouseAnimation {
   0% {
-    top: 30px;
+    top: 10px;
   }
   50% {
-    top: 40px;
+    top: 0px;
   }
   100% {
-    top: 30px;
+    top: 0px;
   }
 }
 </style>
