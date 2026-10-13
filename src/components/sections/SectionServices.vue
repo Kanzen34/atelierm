@@ -27,7 +27,7 @@ import paintLarge from '@/assets/images/paint-large.png'
         <CardService
           class="Services-card"
           iconName="stars"
-          text="Création d’espaces intérieurs harmonieux et fonctionnels, pensés pour refléter votre personnalité et votre style de vie."
+          text="Création d’espaces intérieurs moderne et fonctionnels, pensés pour refléter votre personnalité et votre style de vie."
           title="Design d’interieur"
         />
         <CardService

@@ -16,7 +16,7 @@ import headerBg from '@/assets/images/header-bg.webp'
       </div>
 
       <div class="SectionHeader-content">
-        <span class="header-title">Transformez votre espace en un lieu d’exception</span>
+        <span class="header-title">On vous accompagne pour transformer votre espace</span>
         <figure>
           <img :src="paintSmall" alt="" data-nosnippet />
         </figure>
