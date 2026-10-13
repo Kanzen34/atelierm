@@ -382,7 +382,7 @@ async function handleSubmit(): Promise<void> {
      * Il ne faut surtout plus utiliser :
      * http://localhost:3000/api/contact
      */
-    const response = await fetch('/api/contact', {
+    const response = await fetch('https://atelierm-renovation.fr/api/contact', {
       method: 'POST',
 
       headers: {
@@ -507,6 +507,12 @@ async function handleSubmit(): Promise<void> {
   font-size: 1.8rem;
   font-family: inherit;
   transition: all 0.3s ease;
+
+  &::placeholder {
+    font-weight: 300;
+    font-style: italic;
+    color: #ccc;
+  }
 }
 
 .FormContact-textarea {
