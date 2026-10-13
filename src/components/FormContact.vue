@@ -382,7 +382,7 @@ async function handleSubmit(): Promise<void> {
      * Il ne faut surtout plus utiliser :
      * http://localhost:3000/api/contact
      */
-    const response = await fetch('https://atelierm-renovation.fr/api/contact', {
+    const response = await fetch('/api/contact', {
       method: 'POST',
 
       headers: {
